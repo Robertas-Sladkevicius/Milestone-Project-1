@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
 * {
   margin: 0;
   padding: 0;
@@ -31,7 +32,7 @@ h2 {
 
 #menu li {
   float: right;
-  margin-right: 30px; 
+  margin-right: 30px;
 }
 
 #logo {
@@ -61,14 +62,11 @@ h2 {
   height: 600px;
   width: 100%;
   background: url("../img/hero-image.jpeg") no-repeat center top;
-
   background-size: cover;
-
-animation-name: hero-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
-
 
 #hero-outer {
   height: 600px;
@@ -78,12 +76,8 @@ animation-fill-mode: forwards;
 }
 
 @keyframes hero-zoom {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.1);
-  }
+  from { transform: scale(1); }
+  to { transform: scale(1.1); }
 }
 
 #cover-text, #cover-text h2 {
@@ -95,18 +89,13 @@ animation-fill-mode: forwards;
   font-family: Oswald;
   text-transform: uppercase;
   letter-spacing: 4px;
-
   width: 300px;
   height: 200px;
-
   padding-top: 40px;
   padding-left: 10px;
-
   background-color: rgb(247, 110, 110, .7);
-
-  bottom:30px;
+  bottom: 30px;
   right: 150px;
-
   position: absolute;
 }
 
@@ -122,7 +111,7 @@ animation-fill-mode: forwards;
 
 #right-about {
   padding-top: 30px;
-  width:33%;
+  width: 33%;
   float: right;
 }
 
@@ -152,10 +141,7 @@ hr {
   margin-bottom: 50px;
 }
 
-.right-about-heading h2 {
-  text-align: right;
-}
-
+.right-about-heading h2,
 .right-about-heading p {
   text-align: right;
 }
@@ -163,7 +149,7 @@ hr {
 #welcome {
   margin: 20px 0;
   text-align: center;
-  font-size: 280%
+  font-size: 280%;
 }
 
 #circle-container {
@@ -179,36 +165,29 @@ hr {
 
 #circle-cover-bg {
   background: url("../img/circle-coverbg.jpg") no-repeat center center;
-
   height: 100%;
   border-radius: 50%;
 }
 
-
 #ultimate-workout-online {
   background-image: url("../img/ultimate-workout-online.jpg");
-
 }
 
 #zumba {
   background-image: url("../img/zumba.jpg");
-
 }
 
-#clubbercise { 
+#clubbercise {
   background-image: url("../img/clubbercise.jpg");
-
 }
 
 #you-are-what-you-eat {
   background-image: url("../img/you-are-what-you-eat.jpg");
-
 }
 
 #yoga {
   background-image: url("../img/yoga.jpg");
 }
-
 
 #book-now div {
   clear: both;
@@ -217,16 +196,13 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  float: center;
   padding: 30px 0 0 10px;
   text-align: center;
   box-sizing: border-box;
   margin: 5px;
   font-size: 1em;
   display: flex;
-
 }
-
 
 footer {
   height: 150px;
@@ -258,6 +234,8 @@ footer {
   width: 100%;
 }
 
+/* -------- MEDIA QUERIES -------- */
+
 @media screen and (max-width: 1396px) {
   #club-ethos {
     width: 65%;
@@ -282,7 +260,7 @@ footer {
     float: left;
     padding: 0;
   }
-}
+
   #book-now div {
     width: 90%;
     clear: both;
@@ -292,14 +270,13 @@ footer {
     border-bottom-color: #fff;
     padding: 2px;
   }
-  
+
   hr {
     display: none;
   }
 }
 
 @media screen and (max-width: 943px) {
-
   #menu {
     clear: left;
     float: left;
@@ -331,11 +308,14 @@ footer {
     text-align: center;
     padding: 0 20px 0 20px;
   }
+
+  #photo {
+    column-count: 1;
+  }
 }
 
-#photo {
-  column-count: 1;
-}
+/* -------- SIGN UP FORM -------- */
+
 .form-section {
   clear: left;
   background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg") no-repeat center center;
@@ -343,31 +323,28 @@ footer {
   height: 900px;
 }
 
-  .signup-form {
-    margin-top: 150px;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    position: absolute;
-   padding: 30px;
-  }
-
-  .signup-form h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-  }
-
-  #yoga h3, #you-are-what-you-eat h3, #ultimate-workout-online h3, #zumba h3 {
-    color: black;
-  }  
-
-  #yoga h2, #you-are-what-you-eat h2, #ultimate-workout-online h2, #zumba h2{
-    color: black;
-  }
-
-#clubbercise h2 {
-  color: white;
+.signup-form {
+  margin-top: 150px;
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.6);
+  position: absolute;
+  padding: 30px;
 }
 
+.signup-form h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+#yoga h3, #you-are-what-you-eat h3, #ultimate-workout-online h3, #zumba h3 {
+  color: black;
+}
+
+#yoga h2, #you-are-what-you-eat h2, #ultimate-workout-online h2, #zumba h2 {
+  color: black;
+}
+
+#clubbercise h2,
 #clubbercise h3 {
   color: white;
 }
