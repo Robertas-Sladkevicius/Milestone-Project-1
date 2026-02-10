@@ -28,7 +28,12 @@
 
 - View exercise classes
 - Browse activity images
+
+![View classes and browse activities](assets/readme_img/user_goal_activity.png)
+
 - Sign up for a free trial session
+
+![View classes and browse activities](assets/readme_img/user_goal_sign.png)
 
 ### Site Owner Goals
 
