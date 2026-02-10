@@ -47,6 +47,13 @@
 ## Features
 
 - Responsive navigation menu
+
+![Responsive - PC](assets/readme_img/responsive_pc.png)
+
+![Responsive - PC](assets/readme_img/responsive_tablet.png)
+
+![Responsive - PC](assets/readme_img/responsive_mobile.png)
+
 - Hero section with call-to-action
 - Exercise class listings
 - Image gallery
@@ -82,11 +89,6 @@ text
     │   └── website images
     └── readme
         └── README screenshots
-## Screenshots
-
-- Home Page
-- Gallery Page
-- Sign-Up Page
 
 ---
 
@@ -130,9 +132,22 @@ text
   - Mobile layout tested
 
 - Validation Tools
-  - Google Chrome DevTools
+  - Google Chrome DevTools Lighthouse
+
+![Lighthouse_Home_Mobile](assets/readme_img/lighthouse_home_mobile.png)
+
+![Lighthouse_Sign_Mobile](assets/readme_img/lighthouse_sign.png)
+
   - W3C HTML Validator
+
+![HTML_Validator_Gallery](assets/readme_img/HTML_validator_gallery.png)
+
+![HTML_Validator_Index](assets/readme_img/HTML_validator_index.png)
+
+    
   - W3C CSS Validator
+
+![CSS_Validator](assets/readme_img/css_validator.png)
 
 - Issues Fixed
   - Incorrect image paths
