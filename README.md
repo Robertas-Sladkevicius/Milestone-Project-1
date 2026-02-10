@@ -1,77 +1,150 @@
-# Milestone-Project-1
-Milestone Project 1 - City of Bristol College - Web Development Applications
-# Don't Stop Exercise (DSE)
+# Milestone Project 1 – Don't Stop Exercise (DSE)
 
-Welcome to the Don't Stop Exercise (DSE) website! This project aims to promote a healthy lifestyle through various exercise programs and classes. Users can sign up for a free trial session, view a gallery of our activities, and explore different classes offered by DSE.
+## Overview
+
+This repository contains **Milestone Project 1** for the City of Bristol College – Web Development Applications course.
+
+**Don't Stop Exercise (DSE)** is a fitness-focused website designed to promote a healthy lifestyle. Users can explore exercise classes, view a gallery of activities, and sign up for a free trial session.
+
+---
+
+## Live Site
+
+- https://Robertas-Sladkevicius.github.io/Milestone-Project-1/
+
+---
 
 ## Table of Contents
-- [General Info](#general-info)
-- [Technologies](#technologies)
-- [Setup](#setup)
-- [Features](#features)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Debugging Tools](#debugging-tools)
-- [Credits](#credits)
-- [License](#license)
 
-## General Info
-This website serves as an online presence for the DSE fitness center, where users can:
-- Sign up for a free trial session
-- View a gallery of our classes and activities
-- Learn about the different exercise programs offered
+- Overview
+- Live Site
+- User Experience (UX)
+- Features
+- Technologies Used
+- Project Structure
+- Setup
+- Deployment
+- Testing & Debugging
+- Credits
+- License
 
-## Technologies
-- HTML5
-- CSS3
-- JavaScript (FontAwesome for icons)
-- [Google Fonts](https://fonts.google.com/) (Oswald and Lato)
+---
 
-## Setup
-To run this project locally:
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/Robertas-Sladkevicius/Milestone-Project-1.git
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd Milestone-Project-1
-    ```
-3. Open `index.html` in your web browser to view the website.
+## User Experience (UX)
+
+### User Goals
+
+- Understand what the fitness centre offers
+- View available exercise classes
+- Browse activity images
+- Sign up for a free trial session easily
+
+### Site Owner Goals
+
+- Promote fitness classes and programs
+- Encourage user sign-ups
+- Present clear and accessible information
+- Maintain a professional online presence
+
+---
 
 ## Features
-- **Responsive Design**: The website is fully responsive and works on different screen sizes.
-- **Sign-Up Form**: Users can sign up for a free trial session via the sign-up form.
-- **Gallery**: Displays a gallery of images showcasing different exercise programs.
-- **Class Information**: Provides detailed information about various exercise programs and their schedules.
-- **Social Media Links**: Connect with us on Facebook, Instagram, Twitter, and YouTube.
 
-## Usage
-### Home Page
-The home page welcomes users and provides an overview of the benefits of exercising with DSE. It includes a hero section with a call to action for a free trial session.
+- Responsive navigation menu
+- Hero section with call-to-action
+- Exercise class listings with schedules and prices
+- Image gallery
+- Sign-up form with required field validation
+- Social media links in the footer
 
-### Sign-Up Page
-The sign-up page allows users to register for a free trial session by providing their personal information and selecting their preferred exercise program.
+---
 
-### Gallery Page
-The gallery page showcases various images of the classes and activities offered by DSE, giving users a glimpse of what to expect.
+## Technologies Used
 
-## Screenshots
-![Home Page](path/to/home-page-screenshot.png)
-![Sign-Up Page](path/to/sign-up-page-screenshot.png)
-![Gallery Page](path/to/gallery-page-screenshot.png)
+- HTML5
+- CSS3
+- Font Awesome
+- Google Fonts (Oswald, Lato)
+- GitHub Pages
 
-## Debugging Tools
-To ensure the website functions correctly and is free from errors, the following debugging tools were used:
-- **ChatGPT**: For debugging assistance and code reviews.
-- **Google Chrome**: For testing and using the Developer Tools to inspect elements, console errors, and performance.
-- **W3C Validator**: To validate HTML and CSS code and ensure it adheres to web standards.
+---
+
+## Project Structure
+
+```text
+.
+├── index.html
+├── gallery.html
+├── sign_up.html
+├── README.md
+└── assets
+    ├── css
+    │   └── style.css
+    ├── img
+    │   └── (website images)
+    └── readme
+        └── (README screenshots)
+
+## Setup
+
+- Clone the repository:
+  ```bash
+  git clone https://github.com/Robertas-Sladkevicius/Milestone-Project-1.git
+ Clone the repository:
+  ```bash
+  git clone https://github.com/Robertas-Sladkevicius/Milestone-Project-1.git
+   Navigate to the project directory:
+  ```bash
+  cd Milestone-Project-1
+  - Open the project locally:
+  - Open `index.html` in a web browser
+
+## Deployment
+
+- Platform:
+  - GitHub Pages
+
+- Steps:
+  - Open the repository on GitHub
+  - Go to Settings
+  - Select Pages
+  - Configure build settings:
+    - Source: Deploy from a branch
+    - Branch: Milestone-Project-1
+    - Folder: /(root)
+  - Save changes
+  - Access the live site URL
+
+## Testing & Debugging
+
+- Testing Performed:
+  - Navigation links tested across all pages
+  - Image loading verified
+  - Sign-up form required fields tested
+  - Layout tested on desktop devices
+  - Layout tested on tablet devices
+  - Layout tested on mobile devices
+
+- Validation Tools Used:
+  - Google Chrome DevTools
+  - W3C HTML Validator
+  - W3C CSS Validator
+
+- Issues Fixed:
+  - Incorrect image file paths
+  - Incorrect CSS file paths
+  - Broken CSS media queries
+  - Case-sensitive filename mismatches
+  - Incorrect asset folder structure
 
 ## Credits
-- **HTML and CSS**: Based on examples provided by Code Institute
-- **Images**: Sourced from [Pexels](https://www.pexels.com/)
-- **Icons**: [FontAwesome](https://fontawesome.com/)
-- **Form Background**: [Code Institute](https://codeinstitute.net/)
+
+- Code Institute
+- Pexels
+- Font Awesome
+- Google Fonts
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+- MIT License
+  
