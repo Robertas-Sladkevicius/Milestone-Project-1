@@ -23,7 +23,7 @@
 ### User Goals
 
 - Understand available fitness services
-![Understand available services](assets/readme/user_goal_understand.png)
+![Understand available services](assets/readme_img/user_goal_understand.png)
 
 - View exercise classes
 - Browse activity images
