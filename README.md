@@ -23,6 +23,8 @@
 ### User Goals
 
 - Understand available fitness services
+![Understand available services](assets/readme/user_goal_understand.png)
+
 - View exercise classes
 - Browse activity images
 - Sign up for a free trial session
